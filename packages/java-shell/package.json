@@ -18,18 +18,26 @@
     "test-ci-coverage": "nyc --no-clean --cwd ../.. --reporter=none npm run test-ci"
   },
   "devDependencies": {
+    "@mongodb-js/devtools-github-repo": "^1.4.2",
+    "@mongodb-js/dl-center": "^1.6.3",
+    "@mongodb-js/signing-utils": "^0.3.9",
     "@mongodb-js/tsconfig-mongosh": "^1.0.0",
+    "@mongosh/testing": "0.0.0",
+    "@types/chai-as-promised": "^8.0.2",
+    "@types/cross-spawn": "^6.0.6",
     "assert": "^1.5.0",
+    "boxednode": "^3.0.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
-    "stream-http": "^3.2.0",
     "https-browserify": "^1.0.0",
     "os-browserify": "^0.3.0",
     "path-browserify": "^1.0.1",
+    "puppeteer": "^24.36.1",
     "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
     "util": "^0.12.5",
-    "webpack-merge": "^5.8.0",
-    "@mongosh/testing": "0.0.0"
+    "webpack-dev-server": "^5.2.3",
+    "webpack-merge": "^5.8.0"
   },
   "license": "SSPL",
   "publishConfig": {
